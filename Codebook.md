@@ -1,15 +1,15 @@
-#Getting and Cleaning Data project codebook
+# Getting and Cleaning Data project codebook
 Final output of the R script file is 'SecondData.txt,' which contains merged and summarized version of dataset from : http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
-##Variables
+## Variables
 81 variables are included in the dataset
 
-###ID variables
+### ID variables
 
 *Subject : There were 30 volunteers included in the experiment, each subjects were numbered, ranging from 1 to 30
 *Activity : Descriptive variable, describing what action was performed, WALKING`,`WALKING_UPSTAIRS`,`WALKING_DOWNSTAIRS`,`SITTING`,`STANDING`,`LAYING`
 
-###Measurement variables
+### Measurement variables
 
 The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. These time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. Similarly, the acceleration signal was then separated into body and gravity acceleration signals (tBodyAcc-XYZ and tGravityAcc-XYZ) using another low pass Butterworth filter with a corner frequency of 0.3 Hz. 
 Subsequently, the body linear acceleration and angular velocity were derived in time to obtain Jerk signals (tBodyAccJerk-XYZ and tBodyGyroJerk-XYZ). Also the magnitude of these three-dimensional signals were calculated using the Euclidean norm (tBodyAccMag, tGravityAccMag, tBodyAccJerkMag, tBodyGyroMag, tBodyGyroJerkMag). 
@@ -50,7 +50,7 @@ Additional vectors obtained by averaging the signals in a signal window sample. 
 * tBodyGyroMean
 * tBodyGyroJerkMean
 
-###Actions done
+### Actions done
 
 'SecondData.txt' includes the average of each variable for each activity of each subject. Thus, 180 summarized observations are created at the end.
 
